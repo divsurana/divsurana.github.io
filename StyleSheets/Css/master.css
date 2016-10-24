@@ -101,7 +101,6 @@ a:-webkit-any-link {
 /* fonts */
 
 /* Main Header Style */
-
 h1{
 	font-weight: 200;
 	letter-spacing: 2;
@@ -121,15 +120,68 @@ h1{
 	margin: 0 auto;
 	text-align: center;
 }
+/* End of Main Header */
 
-.work-box{
+/* Second page (projects) */
+.project-box{
 	width: 100%;
 	height: 100%;
-	background: rgba(0,0,0,0.6);
 	position: absolute;
+	left: 0;
+	top: 0;
+    background-color: rgba(0, 0, 0, 0.4);
 	color: black;
 	margin: 0 auto;
 	margin-top: 66%;
 	text-align: center;
 
 }
+
+/* Blur */
+.blur {
+    width:100%;
+    height:100%;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.4);
+    background-size:cover;
+    -webkit-filter: blur(8px);
+    -moz-filter: blur(8px);
+    -ms-filter: blur(8px);
+    -o-filter: blur(8px);
+    filter: blur(8px);
+}
+/* End Blur class*/
+
+/* End of second page*/
+
+/* third page (projects) */
+.work-box{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+	color: black;
+	margin: 0 auto;
+	margin-top: 5px;
+	text-align: center;
+
+}
+
+/* Blur */
+.blur {
+    width:100%;
+    height:100%;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.4);
+    background-size:cover;
+    -webkit-filter: blur(8px);
+    -moz-filter: blur(8px);
+    -ms-filter: blur(8px);
+    -o-filter: blur(8px);
+    filter: blur(8px);
+}
+/* End Blur class*/
+
+/* End of third page*/
